@@ -3,5 +3,11 @@ h1, p {
 }
 
 .navbar{
-  color: blue
+  color: blue;
+  text-align: center;
+}
+
+.list{
+  color: peru;
+  text-align: center;
 }

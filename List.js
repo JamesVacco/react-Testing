@@ -3,9 +3,10 @@ import React from "react"
 function List(){
   return(
     <div>
-      <ui>
-        <li>Apples</li>
-        <li>Grapes</li>
+      <ui className="list">
+        <li>Sex</li>
+        <li>Pizza</li>
+        <li>That herb</li>
       </ui>
     </div>
   )
