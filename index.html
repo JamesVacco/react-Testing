@@ -1,8 +1,10 @@
 <div id="root"></div>
 <html>
 <body>
-  <input id="numb" width=10px>
-  <button type="button" onclick="myFunction()">Send</button>
+  <div id="inputSection" style="text-align:center;">
+    <input className="textEnter" id="numb">
+    <button className="btnSend" type="button" onclick="myFunction()">Send</button>
+  </div>
   <script>
     function myFunction(){
       var x,text
@@ -19,9 +21,12 @@
         window.location.replace("http://69420.pizza/")
       }
       else{
-        window.alert("Wrong Bitch")
+        window.alert("miss")
       }
     }
   </script>
+
+  
+
 </body>
 </html>

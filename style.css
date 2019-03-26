@@ -2,6 +2,10 @@ h1, p {
   font-family: Lato;
 }
 
+body{
+  background: beige
+}
+
 .navbar{
   color: blue;
   text-align: center;
@@ -9,5 +13,17 @@ h1, p {
 
 .list{
   color: peru;
+  text-align: center;
+}
+
+.textEnter{
+  text-align: center;
+}
+
+.btnSend{
+  text-align: center;
+}
+
+.inputSection{
   text-align: center;
 }
